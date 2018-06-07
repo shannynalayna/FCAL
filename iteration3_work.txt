@@ -1,0 +1,183 @@
+Group Woolly Mammoth
+Tristan Mansfield
+Shannyn Telander
+
+Tristan created the UML class diagrams, implemented the ast.h classes, and altered parser.cc to 
+construct the AST for the Program, Stmts, and Stmt productions in the FCAL grammar. Shannyn did 
+the same for the Decl and Expr productions. Tristan updated the Makefile to run the ast tests, 
+made sure code was Google style compliant, and added Doxygen comments for the scanner and parser 
+classes. Shannyn created the Doxygen main page and added Doxygen comments for the ast classes.
+
+Git Log:
+
+commit 2c11a7d9e6ade6c69ab46975f023a9453040ba17
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 20:15:18 2017 -0500
+
+    Adding final versions of all dOxygen documentation, including mainpage.h, and updated versions of the html/ and latex/ directories after running make in latex/ directory
+
+commit 604340f248f1d4c3c918086142d9ca4c9d25de5d
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 20:11:32 2017 -0500
+
+    Changed dOxygen specification to UML_LOOK = YES
+
+commit 1eeabe97a0f88fd64b2f2623e1ab2e20ee8118f3
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 19:54:24 2017 -0500
+
+    Generated new Iter3Documentation
+
+commit a9aacbd81cd09e9d9e04712cab5b92cef665b4d6
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 19:48:20 2017 -0500
+
+    altered Iter3Documentation without UML_LOOK
+
+commit 5d7425db8e92a9a61e8e87a1dd898f472c5f31a6
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 19:30:52 2017 -0500
+
+    Altered mainpage.h to include correct directions for compilation.
+
+commit 6623515b7e0fa971a921005efb6e5c50501e068a
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 19:25:48 2017 -0500
+
+    Final creation of the dOxygen documentation
+
+commit 85fb536fd5d8b9304ea822c2448d668afc850503
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Tue Apr 11 19:23:46 2017 -0500
+
+    Updated Makefile to run run-tests when 'make' is typed; added Doxygen style comment blocks to parser.h and scanner.h describing what they do and how they work; created beginning of iteration3_work.txt
+
+commit 575814ba6a9ed9165b0ad30b235739905ce8134f
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 19:16:05 2017 -0500
+
+    Altered mainpage.h for the iteration 3 documentation
+
+commit 27e4c0739d67d7d3ff4220b296cce844cefbb124
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 19:12:59 2017 -0500
+
+    Added dOxygen compliant comments to indicate the purpose and inheritance of classes within ast.h
+
+commit c23f2109264ad79810159389dbaecf9d3c248e66
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 18:38:47 2017 -0500
+
+    Added comment to ast_tests.h to indicate when and the order the tests were initially tested and the date they initially passed
+
+commit a12e5c18b289b18191bc1301dd16a32303be9eb3
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Tue Apr 11 18:17:01 2017 -0500
+
+    ast.h and parser.cc are now Google style compliant
+
+commit 0fceb6daddf7acea7e3c7d39bde3d97e2ef6452d
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 18:14:44 2017 -0500
+
+    Further explained the program in mainpage.h with better explanations of the scanner and parser within the project
+
+commit 0f39cea42fa96b3af2182536d442982b4586bbcc
+Merge: 304d2fa a2105ca
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Tue Apr 11 17:53:14 2017 -0500
+
+    Merge branch 'master' of https://github.umn.edu/umn-csci-3081S17/repo-group-WoollyMammoth
+
+commit 304d2faf8c7b3bd882d66d7409e380ae9cf5ee70
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Tue Apr 11 17:52:09 2017 -0500
+
+    Fixed weird memory issue where Tokens were getting freed somewhere else AND by the destructor of Token, fixed by removing Token's destructor; added destructors to all classes in ast.h and fixed some syntax issues in the parse functions; also moved iteration2_work.txt to project diectory because it was bugging me
+
+commit a2105ca9ed4a093720e585c7f58394e70b0e4a50
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 17:17:21 2017 -0500
+
+    Created a mainpage, this page is used to further explain project details
+
+commit 1996f84ece6541c3916cf3781973a3c6b898ed76
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 16:58:33 2017 -0500
+
+    Ran make in latex directory, generated pdf for documentation
+
+commit 6f065a9faf56ee07e999e7f575a68c3f44d3cb01
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 16:27:54 2017 -0500
+
+    Adding the latex/ directory after running dOxygen command
+
+commit e8b28d59a4aec1906ec6ef2492affe5be9552b9e
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 16:27:13 2017 -0500
+
+    Adding the html/ directory after running dOxygen command
+
+commit f151caa15b75bd0c7f1b12f27076eae0e94a97e4
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue Apr 11 16:26:10 2017 -0500
+
+    Creating the DOxygen config file
+
+commit 97c57de98af95bfecefbd57f19b6749d4b37421b
+Merge: 47e9448 a20d82b
+Author: Shannyn <telan024@umn.edu>
+Date:   Mon Apr 10 18:49:41 2017 -0500
+
+    Merge branch 'master' of https://github.umn.edu/umn-csci-3081S17/repo-group-WoollyMammoth
+    Addition to ast.h
+
+commit a20d82b1bbe17da1a2ea382e6f806b89774cd0b4
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Mon Apr 10 16:16:19 2017 -0500
+
+    Made more changes to parser.cc to create AST's as a program is being parsed, only a few cases need to be tweaked before it will work; added the not equals expression class to ast.h because it was missing
+
+commit 47e94484416a7536388e0aa2d915f14d165d9442
+Author: Shannyn <telan024@umn.edu>
+Date:   Fri Apr 7 19:08:24 2017 -0500
+
+    Changed all Constant Expr's arguments to strings
+
+commit e0a8675d319058d938bc3decb40922d331c9899c
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Fri Apr 7 14:46:05 2017 -0500
+
+    Modified the unparse functions in all virtual classes to actually be pure virtual (virtual std::string unparse() = 0;) in ast.h, and updated parser.cc to create the correct ast as the parser runs (this is complete for program, stmts, and stmt productions)
+
+commit 44094d47b33ad72d8440eab7a49bb0c230017633
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Fri Apr 7 14:37:16 2017 -0500
+
+    Updated Makefile to compile and run the ast-tests alongside the other tests
+
+commit 44cf324f0b58d3ee1dc7fe7ec7dfa936800147ab
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Tue Apr 4 16:46:49 2017 -0500
+
+    Fixed Google style guide problems in ast.h (mainly whitespace issues and some constructors needing to be marked as explicit)
+
+commit ab5b9f425c2e27060fa37715c479fc4768144197
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Fri Mar 31 19:37:44 2017 -0500
+
+    Fixed compile errors in ast.h (mostly typos and incorrect syntax)
+
+commit d9b3feb134badef8c6517b1191a3e7fd153af9c7
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Fri Mar 31 19:07:37 2017 -0500
+
+    Modified ast.h to include all of the abstract classes for the AST (these are not completed yet, just basic versions)
+
+commit 765df090a5ed16387bee427c5b422904e87d6322
+Author: Shannyn <telan024@umn.edu>
+Date:   Fri Mar 31 13:05:51 2017 -0500
+
+    Adding ast_tests.h for Iteration 3
+

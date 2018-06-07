@@ -1,0 +1,129 @@
+Group Woolly Mammoth
+Tristan Mansfield
+Shannyn Telander
+
+Tristan implemented the CppCode() functions in ast.h for the Program, Stmts, and Stmt production classes and
+Shannyn did the same for the Decl and Expr production classes. Tristan implemented all of Matrix.cc except for
+the = and * operator overloads, which Shannyn implemented. Tristan updated the Makefile to run the
+code generation tests. Tristan made the function and expected output for my_code_1 and Shannyn did the same for 
+my_code_2. We both sat down together to fix problems with the output of the CppCode() functions and debug
+the program.
+
+Git Log:
+
+commit 447cc6318f209e7d5912ccd970ef2780921cfe6a
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue May 2 19:29:03 2017 -0500
+
+    Altered codegeneration_tests to test code_2 sample
+
+commit 824bda62e808e3bc47db5046f5b2b74cd10eabcd
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue May 2 19:26:04 2017 -0500
+
+    Adding my_code_2 sample, simple while loop to compute 12 factorial
+
+commit 80f953a5803298cf66d7381470433f667ce9db06
+Merge: 589fd3a ac7a03a
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue May 2 19:14:55 2017 -0500
+
+    Merging commits while adding new my_code_1 sample and modifications to ast.h
+
+commit ac7a03aa783ed66f1cd9584032cdac5b617f191f
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Tue May 2 18:41:50 2017 -0500
+
+    Wrote my_code_1.dsl and the input and expected output files; fixed syntax for matrix assignment CppCode() in ast.h; updated codegeneration_tests.h to check for the correct output of the new my_code_1 code; cleaned up some unnecesarry files
+
+commit 589fd3af763c140f666cfc83134e8dee23d939fb
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue May 2 18:23:25 2017 -0500
+
+    Altered boolean cpp code from producing 'boolean' to 'bool'
+
+commit f324267d847fb5195b47ba1c43021e07ea4b4907
+Author: Shannyn <telan024@umn.edu>
+Date:   Tue May 2 12:40:56 2017 -0500
+
+    Altered overloaded multiplication operator to initialize data value in matrix to 0 before assigning a new value
+
+commit 0e8a667cb3fe9fb3437a4693dfedcc58ee33c49a
+Author: Shannyn <telan024@umn.edu>
+Date:   Mon May 1 20:42:56 2017 -0500
+
+    Added overloaded * operator for matrices
+
+commit cb7f511e6baca41e122ddee7fb3d8e7a692288a8
+Author: Shannyn <telan024@umn.edu>
+Date:   Mon May 1 19:30:14 2017 -0500
+
+    Added overloaded assignment operator
+
+commit 7917562e577f550b163157edb730ae8a85196764
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Sat Apr 29 11:02:16 2017 -0500
+
+    Fixed syntax issues with output of CppCode() function for many of the productions (mainly matrix things)
+
+commit 69e279d9cd1cd7e50ba5d6961d353e3802ab16e6
+Author: Shannyn <telan024@umn.edu>
+Date:   Fri Apr 28 11:45:05 2017 -0500
+
+    Adding UML Diagram pdf for Iteration 3
+
+commit fd528cfbe9fc086700d3b72a4d643c6db66b713d
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Tue Apr 25 16:01:37 2017 -0500
+
+    Updated Makefile to run codegeneration_tests; Fixed syntax issues with strings in CppCode() functions in ast.h; Moved function implementations from Matrix.h to Matrix.cc and fixed error with matrix_read function not using ifstream correctly
+
+commit d848d895f6ad8abeb0b32de4f79edd53039c4fc7
+Author: Shannyn <telan024@umn.edu>
+Date:   Mon Apr 24 20:46:36 2017 -0500
+
+    Further modified CppCode() function for MatrixMultiExprDecl class, checked google style compliancy & altered Matrix.h to adhere
+
+commit e23cac67feaa0dbb3518cbe7df6c623c43e9eb2c
+Author: Shannyn <telan024@umn.edu>
+Date:   Mon Apr 24 20:14:51 2017 -0500
+
+    Added CppCode() function to Decl and Expr productions for ast.h
+
+commit 3bae089085c70be0e937cc5cbca21e0dfce86be2
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Sun Apr 23 18:34:13 2017 -0500
+
+    Added CppCode() function to Program, Stmts, and Stmt productions in ast.h
+
+commit 4763bf36c113b30ad7d7261a111f1f6c37143fc2
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Sun Apr 23 16:57:30 2017 -0500
+
+    Completed most of matrix.h including the constructors, operator overload, and matrix read function (still needs to be tested)
+
+commit 53b8fa6fd78d7db105f6030b263d1b76748c8ddf
+Author: Tristan Mansfield <mansf043@umn.edu>
+Date:   Fri Apr 21 12:40:34 2017 -0500
+
+    Added updated iteration 4 files
+
+commit 811c9026aa5cc809f89782cc8c67e00ee4a6b1cc
+Author: Shannyn <telan024@umn.edu>
+Date:   Fri Apr 14 12:58:06 2017 -0500
+
+    Adding codegeneration_tests.h for iteration 4
+
+commit c4fd86cad2dee178cedb26c9553cc3cae0f83270
+Merge: a17b489 048c9ef
+Author: Shannyn <telan024@umn.edu>
+Date:   Fri Apr 14 12:57:15 2017 -0500
+
+    Merge branch 'master' of https://github.umn.edu/umn-csci-3081S17/repo-group-WoollyMammoth
+
+commit a17b489abdc8df634822ca68b6d0f33615b03b6a
+Author: Shannyn <telan024@umn.edu>
+Date:   Fri Apr 14 12:57:01 2017 -0500
+
+    Initial Iteration4 commit, adding all new files provided from class repo
+

@@ -1,0 +1,73 @@
+\hypertarget{classfcal_1_1scanner_1_1Scanner}{}\section{fcal\+:\+:scanner\+:\+:Scanner Class Reference}
+\label{classfcal_1_1scanner_1_1Scanner}\index{fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}}
+
+
+{\ttfamily \#include $<$scanner.\+h$>$}
+
+
+
+Collaboration diagram for fcal\+:\+:scanner\+:\+:Scanner\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=271pt]{classfcal_1_1scanner_1_1Scanner__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classfcal_1_1scanner_1_1Scanner_a606874481764d7a73f55364a32f09e56}{Scanner} ()
+\item 
+\hyperlink{classfcal_1_1scanner_1_1Scanner_a7a35882ef749209bce3146916e3a8aec}{$\sim$\+Scanner} ()
+\item 
+\hyperlink{classfcal_1_1scanner_1_1Token}{Token} $\ast$ \hyperlink{classfcal_1_1scanner_1_1Scanner_afe81aba5714ee2132baaf9546b08dc87}{Scan} (const char $\ast$text)
+\item 
+int \hyperlink{classfcal_1_1scanner_1_1Scanner_a873b7e7988d420ce9d5b28b237d4ad54}{Consume\+Whitespace\+And\+Comments} (const char $\ast$text, regex\+\_\+t $\ast$white\+\_\+space, regex\+\_\+t $\ast$block\+\_\+comment, regex\+\_\+t $\ast$line\+\_\+comment)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classfcal_1_1scanner_1_1Scanner}{Scanner} class is used to scan an F\+C\+AL program (inputted as a character string) for tokens and send them to a parser. The Scan function is the main component of this class; it does all of the regex matching to determine the next token in the program and creates a \hyperlink{classfcal_1_1scanner_1_1Token}{Token} object list to be returned. This function uses an array of regex\+\_\+t regular expressions (which correspond to F\+C\+AL language tokens) for token matching. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}!Scanner@{Scanner}}
+\index{Scanner@{Scanner}!fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}}
+\subsubsection[{\texorpdfstring{Scanner()}{Scanner()}}]{\setlength{\rightskip}{0pt plus 5cm}fcal\+::scanner\+::\+Scanner\+::\+Scanner (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classfcal_1_1scanner_1_1Scanner_a606874481764d7a73f55364a32f09e56}{}\label{classfcal_1_1scanner_1_1Scanner_a606874481764d7a73f55364a32f09e56}
+\index{fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}!````~Scanner@{$\sim$\+Scanner}}
+\index{````~Scanner@{$\sim$\+Scanner}!fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}}
+\subsubsection[{\texorpdfstring{$\sim$\+Scanner()}{~Scanner()}}]{\setlength{\rightskip}{0pt plus 5cm}fcal\+::scanner\+::\+Scanner\+::$\sim$\+Scanner (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classfcal_1_1scanner_1_1Scanner_a7a35882ef749209bce3146916e3a8aec}{}\label{classfcal_1_1scanner_1_1Scanner_a7a35882ef749209bce3146916e3a8aec}
+
+
+\subsection{Member Function Documentation}
+\index{fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}!Consume\+Whitespace\+And\+Comments@{Consume\+Whitespace\+And\+Comments}}
+\index{Consume\+Whitespace\+And\+Comments@{Consume\+Whitespace\+And\+Comments}!fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}}
+\subsubsection[{\texorpdfstring{Consume\+Whitespace\+And\+Comments(const char $\ast$text, regex\+\_\+t $\ast$white\+\_\+space, regex\+\_\+t $\ast$block\+\_\+comment, regex\+\_\+t $\ast$line\+\_\+comment)}{ConsumeWhitespaceAndComments(const char *text, regex_t *white_space, regex_t *block_comment, regex_t *line_comment)}}]{\setlength{\rightskip}{0pt plus 5cm}int fcal\+::scanner\+::\+Scanner\+::\+Consume\+Whitespace\+And\+Comments (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{text, }
+\item[{regex\+\_\+t $\ast$}]{white\+\_\+space, }
+\item[{regex\+\_\+t $\ast$}]{block\+\_\+comment, }
+\item[{regex\+\_\+t $\ast$}]{line\+\_\+comment}
+\end{DoxyParamCaption}
+)}\hypertarget{classfcal_1_1scanner_1_1Scanner_a873b7e7988d420ce9d5b28b237d4ad54}{}\label{classfcal_1_1scanner_1_1Scanner_a873b7e7988d420ce9d5b28b237d4ad54}
+\index{fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}!Scan@{Scan}}
+\index{Scan@{Scan}!fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}}
+\subsubsection[{\texorpdfstring{Scan(const char $\ast$text)}{Scan(const char *text)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Token} $\ast$ fcal\+::scanner\+::\+Scanner\+::\+Scan (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{text}
+\end{DoxyParamCaption}
+)}\hypertarget{classfcal_1_1scanner_1_1Scanner_afe81aba5714ee2132baaf9546b08dc87}{}\label{classfcal_1_1scanner_1_1Scanner_afe81aba5714ee2132baaf9546b08dc87}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{scanner_8h}{scanner.\+h}\item 
+src/\hyperlink{scanner_8cc}{scanner.\+cc}\end{DoxyCompactItemize}

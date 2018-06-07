@@ -1,0 +1,6 @@
+CSCI 3081W Iteration 1 Division of Labor Statement
+Tristan Mansfield
+Shannyn Telander
+
+	For this first iteration, Tristan authored the class declarations and implementation of the scanner function and the comments throughout those files. As such, Shannyn authored the majority of the tests and comments throughout for the token types in scanner_tests.h as well as the regular expression tests used in regex_tests.h. While we did split up these tasks, we did work on the project together for the most part. 
+	We tested the code together and worked through compilation errors on our respective scripts together, as well. In getting ready to submit these files, Shannyn made sure the files within the include folder were Google style compliant while Tristan checked the files within the src folder. 

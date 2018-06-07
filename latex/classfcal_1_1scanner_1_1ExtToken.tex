@@ -1,0 +1,182 @@
+\hypertarget{classfcal_1_1scanner_1_1ExtToken}{}\section{fcal\+:\+:scanner\+:\+:Ext\+Token Class Reference}
+\label{classfcal_1_1scanner_1_1ExtToken}\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+
+
+{\ttfamily \#include $<$ext\+\_\+token.\+h$>$}
+
+
+
+Inheritance diagram for fcal\+:\+:scanner\+:\+:Ext\+Token\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfcal_1_1scanner_1_1ExtToken__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for fcal\+:\+:scanner\+:\+:Ext\+Token\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=201pt]{classfcal_1_1scanner_1_1ExtToken__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classfcal_1_1scanner_1_1ExtToken_afda92e9d2c7b66f2b9aaed8ac07bca46}{Ext\+Token} (\hyperlink{classfcal_1_1parser_1_1Parser}{parser\+::\+Parser} $\ast$p, \hyperlink{classfcal_1_1scanner_1_1Token}{Token} $\ast$t)
+\item 
+\hyperlink{classfcal_1_1scanner_1_1ExtToken_aa6846c2c9fb91a37715b0f41a0ffcda4}{Ext\+Token} (\hyperlink{classfcal_1_1parser_1_1Parser}{parser\+::\+Parser} $\ast$p, \hyperlink{classfcal_1_1scanner_1_1Token}{Token} $\ast$t, std\+::string d)
+\item 
+virtual \hyperlink{classfcal_1_1scanner_1_1ExtToken_a13fe524a7fa31549acd6c5e8769d0a84}{$\sim$\+Ext\+Token} ()
+\item 
+virtual \hyperlink{classfcal_1_1parser_1_1ParseResult}{parser\+::\+Parse\+Result} \hyperlink{classfcal_1_1scanner_1_1ExtToken_a2e1ca27a07d55593ffd67780dbcad7dd}{nud} (void)
+\item 
+virtual \hyperlink{classfcal_1_1parser_1_1ParseResult}{parser\+::\+Parse\+Result} \hyperlink{classfcal_1_1scanner_1_1ExtToken_a42c352ef5e019a1155be80b4a40deb38}{led} (\hyperlink{classfcal_1_1parser_1_1ParseResult}{parser\+::\+Parse\+Result} left)
+\item 
+\hyperlink{classfcal_1_1scanner_1_1ExtToken}{Ext\+Token} $\ast$ \hyperlink{classfcal_1_1scanner_1_1ExtToken_ad6a5965961553c85d7fbaa688fabf052}{Extend\+Token} (\hyperlink{classfcal_1_1parser_1_1Parser}{parser\+::\+Parser} $\ast$p, \hyperlink{classfcal_1_1scanner_1_1Token}{Token} $\ast$tokens)
+\item 
+\hyperlink{classfcal_1_1scanner_1_1ExtToken}{Ext\+Token} $\ast$ \hyperlink{classfcal_1_1scanner_1_1ExtToken_a4995af1527ea8ba6ee99f3fa8646856d}{Extend\+Token\+List} (\hyperlink{classfcal_1_1parser_1_1Parser}{parser\+::\+Parser} $\ast$p, \hyperlink{classfcal_1_1scanner_1_1Token}{Token} $\ast$tokens)
+\item 
+virtual int \hyperlink{classfcal_1_1scanner_1_1ExtToken_adecef3770f08e5a26f103ab62171cc91}{lbp} ()
+\item 
+virtual std\+::string \hyperlink{classfcal_1_1scanner_1_1ExtToken_a29a72149492d7fef7968a1b894d334c7}{description} ()
+\item 
+std\+::string \hyperlink{classfcal_1_1scanner_1_1ExtToken_a32d06bece581a1711625c3a503db21e1}{lexeme} (void) const 
+\item 
+\hyperlink{classfcal_1_1scanner_1_1ExtToken}{Ext\+Token} $\ast$ \hyperlink{classfcal_1_1scanner_1_1ExtToken_aa927cdbdee70b7e74e0aee075f340472}{next} (void) const 
+\item 
+\hyperlink{namespacefcal_1_1scanner_ad95bd8241e3350b2d765f6b929eb0d93}{scanner\+::\+Token\+Type} \hyperlink{classfcal_1_1scanner_1_1ExtToken_a0bc057f41ebfeab0900a467af3798bbf}{terminal} (void) const 
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classfcal_1_1parser_1_1Parser}{parser\+::\+Parser} $\ast$ \hyperlink{classfcal_1_1scanner_1_1ExtToken_a311bc29b9732fc7825012ecf08d1d73f}{parser} (void)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}!Ext\+Token@{Ext\+Token}}
+\index{Ext\+Token@{Ext\+Token}!fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+\subsubsection[{\texorpdfstring{Ext\+Token(parser\+::\+Parser $\ast$p, Token $\ast$t)}{ExtToken(parser::Parser *p, Token *t)}}]{\setlength{\rightskip}{0pt plus 5cm}fcal\+::scanner\+::\+Ext\+Token\+::\+Ext\+Token (
+\begin{DoxyParamCaption}
+\item[{{\bf parser\+::\+Parser} $\ast$}]{p, }
+\item[{{\bf Token} $\ast$}]{t}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classfcal_1_1scanner_1_1ExtToken_afda92e9d2c7b66f2b9aaed8ac07bca46}{}\label{classfcal_1_1scanner_1_1ExtToken_afda92e9d2c7b66f2b9aaed8ac07bca46}
+\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}!Ext\+Token@{Ext\+Token}}
+\index{Ext\+Token@{Ext\+Token}!fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+\subsubsection[{\texorpdfstring{Ext\+Token(parser\+::\+Parser $\ast$p, Token $\ast$t, std\+::string d)}{ExtToken(parser::Parser *p, Token *t, std::string d)}}]{\setlength{\rightskip}{0pt plus 5cm}fcal\+::scanner\+::\+Ext\+Token\+::\+Ext\+Token (
+\begin{DoxyParamCaption}
+\item[{{\bf parser\+::\+Parser} $\ast$}]{p, }
+\item[{{\bf Token} $\ast$}]{t, }
+\item[{std\+::string}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classfcal_1_1scanner_1_1ExtToken_aa6846c2c9fb91a37715b0f41a0ffcda4}{}\label{classfcal_1_1scanner_1_1ExtToken_aa6846c2c9fb91a37715b0f41a0ffcda4}
+\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}!````~Ext\+Token@{$\sim$\+Ext\+Token}}
+\index{````~Ext\+Token@{$\sim$\+Ext\+Token}!fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+\subsubsection[{\texorpdfstring{$\sim$\+Ext\+Token()}{~ExtToken()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual fcal\+::scanner\+::\+Ext\+Token\+::$\sim$\+Ext\+Token (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classfcal_1_1scanner_1_1ExtToken_a13fe524a7fa31549acd6c5e8769d0a84}{}\label{classfcal_1_1scanner_1_1ExtToken_a13fe524a7fa31549acd6c5e8769d0a84}
+
+
+\subsection{Member Function Documentation}
+\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}!description@{description}}
+\index{description@{description}!fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+\subsubsection[{\texorpdfstring{description()}{description()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\+::string fcal\+::scanner\+::\+Ext\+Token\+::description (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classfcal_1_1scanner_1_1ExtToken_a29a72149492d7fef7968a1b894d334c7}{}\label{classfcal_1_1scanner_1_1ExtToken_a29a72149492d7fef7968a1b894d334c7}
+
+
+Reimplemented in \hyperlink{classfcal_1_1scanner_1_1EndOfFileToken_a8fdfe21df812622405e5b7814970f367}{fcal\+::scanner\+::\+End\+Of\+File\+Token}, \hyperlink{classfcal_1_1scanner_1_1ForwardSlashToken_a04d39d9ea4cbb704862d33cb447de83b}{fcal\+::scanner\+::\+Forward\+Slash\+Token}, \hyperlink{classfcal_1_1scanner_1_1DashToken_a87476e28739d1c9966ed330ba8154342}{fcal\+::scanner\+::\+Dash\+Token}, \hyperlink{classfcal_1_1scanner_1_1StarToken_ab7d27896f41f930e7a17126fc014d440}{fcal\+::scanner\+::\+Star\+Token}, \hyperlink{classfcal_1_1scanner_1_1PlusSignToken_a7039658eea598ecfb46084a0b496544f}{fcal\+::scanner\+::\+Plus\+Sign\+Token}, \hyperlink{classfcal_1_1scanner_1_1LeftParenToken_a32ea8cf7b793bb532161781f8f42113c}{fcal\+::scanner\+::\+Left\+Paren\+Token}, \hyperlink{classfcal_1_1scanner_1_1LetToken_aabb7ae69eea2ce5e179c26a72a479aa9}{fcal\+::scanner\+::\+Let\+Token}, \hyperlink{classfcal_1_1scanner_1_1IfToken_a76c60330e996fab7bbcaaab1f825d62c}{fcal\+::scanner\+::\+If\+Token}, \hyperlink{classfcal_1_1scanner_1_1VariableNameToken_acb8500279c7a3a25cf19f7f1aea52923}{fcal\+::scanner\+::\+Variable\+Name\+Token}, \hyperlink{classfcal_1_1scanner_1_1CharConstToken_a283d5fb12d36caac1afed73c1035b562}{fcal\+::scanner\+::\+Char\+Const\+Token}, \hyperlink{classfcal_1_1scanner_1_1StringConstToken_adf08f9d8df7c7a996d81bf8d8f0f5b07}{fcal\+::scanner\+::\+String\+Const\+Token}, \hyperlink{classfcal_1_1scanner_1_1FloatConstToken_ac98711e11205722a389fc19682183286}{fcal\+::scanner\+::\+Float\+Const\+Token}, \hyperlink{classfcal_1_1scanner_1_1IntConstToken_a9359c997cac9cf57a5c7debc6a1811ab}{fcal\+::scanner\+::\+Int\+Const\+Token}, \hyperlink{classfcal_1_1scanner_1_1FalseKwdToken_ad03d22a5baf8377d409dcae104cfc997}{fcal\+::scanner\+::\+False\+Kwd\+Token}, \hyperlink{classfcal_1_1scanner_1_1TrueKwdToken_a18a6762dac43654ff2df03c3c19d692e}{fcal\+::scanner\+::\+True\+Kwd\+Token}, and \hyperlink{classfcal_1_1scanner_1_1NotOpToken_ae56a9526025d994262cf83879e0c2533}{fcal\+::scanner\+::\+Not\+Op\+Token}.
+
+\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}!Extend\+Token@{Extend\+Token}}
+\index{Extend\+Token@{Extend\+Token}!fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+\subsubsection[{\texorpdfstring{Extend\+Token(parser\+::\+Parser $\ast$p, Token $\ast$tokens)}{ExtendToken(parser::Parser *p, Token *tokens)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Ext\+Token} $\ast$ fcal\+::scanner\+::\+Ext\+Token\+::\+Extend\+Token (
+\begin{DoxyParamCaption}
+\item[{{\bf parser\+::\+Parser} $\ast$}]{p, }
+\item[{{\bf Token} $\ast$}]{tokens}
+\end{DoxyParamCaption}
+)}\hypertarget{classfcal_1_1scanner_1_1ExtToken_ad6a5965961553c85d7fbaa688fabf052}{}\label{classfcal_1_1scanner_1_1ExtToken_ad6a5965961553c85d7fbaa688fabf052}
+\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}!Extend\+Token\+List@{Extend\+Token\+List}}
+\index{Extend\+Token\+List@{Extend\+Token\+List}!fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+\subsubsection[{\texorpdfstring{Extend\+Token\+List(parser\+::\+Parser $\ast$p, Token $\ast$tokens)}{ExtendTokenList(parser::Parser *p, Token *tokens)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Ext\+Token} $\ast$ fcal\+::scanner\+::\+Ext\+Token\+::\+Extend\+Token\+List (
+\begin{DoxyParamCaption}
+\item[{{\bf parser\+::\+Parser} $\ast$}]{p, }
+\item[{{\bf Token} $\ast$}]{tokens}
+\end{DoxyParamCaption}
+)}\hypertarget{classfcal_1_1scanner_1_1ExtToken_a4995af1527ea8ba6ee99f3fa8646856d}{}\label{classfcal_1_1scanner_1_1ExtToken_a4995af1527ea8ba6ee99f3fa8646856d}
+\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}!lbp@{lbp}}
+\index{lbp@{lbp}!fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+\subsubsection[{\texorpdfstring{lbp()}{lbp()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int fcal\+::scanner\+::\+Ext\+Token\+::lbp (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classfcal_1_1scanner_1_1ExtToken_adecef3770f08e5a26f103ab62171cc91}{}\label{classfcal_1_1scanner_1_1ExtToken_adecef3770f08e5a26f103ab62171cc91}
+
+
+Reimplemented in \hyperlink{classfcal_1_1scanner_1_1RelationalOpToken_ac96b280b7e5993c93d7b245deaefffb1}{fcal\+::scanner\+::\+Relational\+Op\+Token}, \hyperlink{classfcal_1_1scanner_1_1ForwardSlashToken_ae2c4a56a7c81f1f9d697ccca1e95c153}{fcal\+::scanner\+::\+Forward\+Slash\+Token}, \hyperlink{classfcal_1_1scanner_1_1DashToken_a1b88432765ae6c30be1250015ebaa2c4}{fcal\+::scanner\+::\+Dash\+Token}, \hyperlink{classfcal_1_1scanner_1_1StarToken_a20ae85b6c5a2ad7b7fb249974af2479d}{fcal\+::scanner\+::\+Star\+Token}, \hyperlink{classfcal_1_1scanner_1_1PlusSignToken_a12eb801f806ba7bcb2e0c9f4eba9c98c}{fcal\+::scanner\+::\+Plus\+Sign\+Token}, \hyperlink{classfcal_1_1scanner_1_1LeftParenToken_a2bfc3c31dc0fef8961d4f33a3bc81f25}{fcal\+::scanner\+::\+Left\+Paren\+Token}, \hyperlink{classfcal_1_1scanner_1_1LetToken_abefbfa2c420b3e1214b85849d0db2e43}{fcal\+::scanner\+::\+Let\+Token}, and \hyperlink{classfcal_1_1scanner_1_1IfToken_a8ef9ce247acf496793ef3cecafea1c42}{fcal\+::scanner\+::\+If\+Token}.
+
+\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}!led@{led}}
+\index{led@{led}!fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+\subsubsection[{\texorpdfstring{led(parser\+::\+Parse\+Result left)}{led(parser::ParseResult left)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf parser\+::\+Parse\+Result} fcal\+::scanner\+::\+Ext\+Token\+::led (
+\begin{DoxyParamCaption}
+\item[{{\bf parser\+::\+Parse\+Result}}]{left}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classfcal_1_1scanner_1_1ExtToken_a42c352ef5e019a1155be80b4a40deb38}{}\label{classfcal_1_1scanner_1_1ExtToken_a42c352ef5e019a1155be80b4a40deb38}
+
+
+Reimplemented in \hyperlink{classfcal_1_1scanner_1_1RelationalOpToken_aeb44d196866916b7d121da40a1d318f1}{fcal\+::scanner\+::\+Relational\+Op\+Token}, \hyperlink{classfcal_1_1scanner_1_1ForwardSlashToken_a75ba06718e3faa1d53c62182d0f7b1db}{fcal\+::scanner\+::\+Forward\+Slash\+Token}, \hyperlink{classfcal_1_1scanner_1_1DashToken_a7c0e98c83937cf698ce6f32380e17c52}{fcal\+::scanner\+::\+Dash\+Token}, \hyperlink{classfcal_1_1scanner_1_1StarToken_a6b11cdc86dbaba80202ebc5ad8939a01}{fcal\+::scanner\+::\+Star\+Token}, and \hyperlink{classfcal_1_1scanner_1_1PlusSignToken_a7926bacb09c71d87642eb9d76cce5fc3}{fcal\+::scanner\+::\+Plus\+Sign\+Token}.
+
+\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}!lexeme@{lexeme}}
+\index{lexeme@{lexeme}!fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+\subsubsection[{\texorpdfstring{lexeme(void) const }{lexeme(void) const }}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string fcal\+::scanner\+::\+Ext\+Token\+::lexeme (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classfcal_1_1scanner_1_1ExtToken_a32d06bece581a1711625c3a503db21e1}{}\label{classfcal_1_1scanner_1_1ExtToken_a32d06bece581a1711625c3a503db21e1}
+\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}!next@{next}}
+\index{next@{next}!fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+\subsubsection[{\texorpdfstring{next(void) const }{next(void) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Ext\+Token}$\ast$ fcal\+::scanner\+::\+Ext\+Token\+::next (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classfcal_1_1scanner_1_1ExtToken_aa927cdbdee70b7e74e0aee075f340472}{}\label{classfcal_1_1scanner_1_1ExtToken_aa927cdbdee70b7e74e0aee075f340472}
+\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}!nud@{nud}}
+\index{nud@{nud}!fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+\subsubsection[{\texorpdfstring{nud(void)}{nud(void)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf parser\+::\+Parse\+Result} fcal\+::scanner\+::\+Ext\+Token\+::nud (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classfcal_1_1scanner_1_1ExtToken_a2e1ca27a07d55593ffd67780dbcad7dd}{}\label{classfcal_1_1scanner_1_1ExtToken_a2e1ca27a07d55593ffd67780dbcad7dd}
+
+
+Reimplemented in \hyperlink{classfcal_1_1scanner_1_1LeftParenToken_a793eb1dfcd6ea5546081c7cf8733534a}{fcal\+::scanner\+::\+Left\+Paren\+Token}, \hyperlink{classfcal_1_1scanner_1_1LetToken_a020d102d24a3bda7bddec7e6ccbb7f01}{fcal\+::scanner\+::\+Let\+Token}, \hyperlink{classfcal_1_1scanner_1_1IfToken_a66e666cbade5d1be24d0639dad88a594}{fcal\+::scanner\+::\+If\+Token}, \hyperlink{classfcal_1_1scanner_1_1VariableNameToken_aff6fe66d29fa17a8efb5c54a93847524}{fcal\+::scanner\+::\+Variable\+Name\+Token}, \hyperlink{classfcal_1_1scanner_1_1CharConstToken_a5e9299e684f969cde0f71c0041e92153}{fcal\+::scanner\+::\+Char\+Const\+Token}, \hyperlink{classfcal_1_1scanner_1_1StringConstToken_a974609417de4cb5876a6e57a22e254e9}{fcal\+::scanner\+::\+String\+Const\+Token}, \hyperlink{classfcal_1_1scanner_1_1FloatConstToken_a7ceca1dc6b064daf39e7250d8d93a9ce}{fcal\+::scanner\+::\+Float\+Const\+Token}, \hyperlink{classfcal_1_1scanner_1_1IntConstToken_aede9ed23780dbb33a7852b3ecf6183da}{fcal\+::scanner\+::\+Int\+Const\+Token}, \hyperlink{classfcal_1_1scanner_1_1FalseKwdToken_a57566622065242fe629d5f991022cdac}{fcal\+::scanner\+::\+False\+Kwd\+Token}, \hyperlink{classfcal_1_1scanner_1_1TrueKwdToken_ad3813f27375db4cc57df86bf8a446546}{fcal\+::scanner\+::\+True\+Kwd\+Token}, and \hyperlink{classfcal_1_1scanner_1_1NotOpToken_a4fe82b09660e6f180319786cbe0428bc}{fcal\+::scanner\+::\+Not\+Op\+Token}.
+
+\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}!parser@{parser}}
+\index{parser@{parser}!fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+\subsubsection[{\texorpdfstring{parser(void)}{parser(void)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf parser\+::\+Parser}$\ast$ fcal\+::scanner\+::\+Ext\+Token\+::parser (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}\hypertarget{classfcal_1_1scanner_1_1ExtToken_a311bc29b9732fc7825012ecf08d1d73f}{}\label{classfcal_1_1scanner_1_1ExtToken_a311bc29b9732fc7825012ecf08d1d73f}
+\index{fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}!terminal@{terminal}}
+\index{terminal@{terminal}!fcal\+::scanner\+::\+Ext\+Token@{fcal\+::scanner\+::\+Ext\+Token}}
+\subsubsection[{\texorpdfstring{terminal(void) const }{terminal(void) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf scanner\+::\+Token\+Type} fcal\+::scanner\+::\+Ext\+Token\+::terminal (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classfcal_1_1scanner_1_1ExtToken_a0bc057f41ebfeab0900a467af3798bbf}{}\label{classfcal_1_1scanner_1_1ExtToken_a0bc057f41ebfeab0900a467af3798bbf}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{ext__token_8h}{ext\+\_\+token.\+h}\item 
+src/\hyperlink{ext__token_8cc}{ext\+\_\+token.\+cc}\end{DoxyCompactItemize}

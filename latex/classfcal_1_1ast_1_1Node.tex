@@ -1,0 +1,65 @@
+\hypertarget{classfcal_1_1ast_1_1Node}{}\section{fcal\+:\+:ast\+:\+:Node Class Reference}
+\label{classfcal_1_1ast_1_1Node}\index{fcal\+::ast\+::\+Node@{fcal\+::ast\+::\+Node}}
+
+
+{\ttfamily \#include $<$ast.\+h$>$}
+
+
+
+Inheritance diagram for fcal\+:\+:ast\+:\+:Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfcal_1_1ast_1_1Node__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for fcal\+:\+:ast\+:\+:Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=161pt]{classfcal_1_1ast_1_1Node__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual std\+::string \hyperlink{classfcal_1_1ast_1_1Node_a81865f5a1df593708a39bf492952742a}{unparse} ()=0
+\item 
+virtual \hyperlink{classfcal_1_1ast_1_1Node_a9bc0227b31ced4b51daff34828210639}{$\sim$\+Node} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is the base class for the \hyperlink{classfcal_1_1ast_1_1Stmts}{Stmts}, \hyperlink{classfcal_1_1ast_1_1Stmt}{Stmt}, \hyperlink{classfcal_1_1ast_1_1Decl}{Decl}, and \hyperlink{classfcal_1_1ast_1_1Expr}{Expr} classes. This class is purely virtual. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{fcal\+::ast\+::\+Node@{fcal\+::ast\+::\+Node}!````~Node@{$\sim$\+Node}}
+\index{````~Node@{$\sim$\+Node}!fcal\+::ast\+::\+Node@{fcal\+::ast\+::\+Node}}
+\subsubsection[{\texorpdfstring{$\sim$\+Node()}{~Node()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual fcal\+::ast\+::\+Node\+::$\sim$\+Node (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classfcal_1_1ast_1_1Node_a9bc0227b31ced4b51daff34828210639}{}\label{classfcal_1_1ast_1_1Node_a9bc0227b31ced4b51daff34828210639}
+
+
+\subsection{Member Function Documentation}
+\index{fcal\+::ast\+::\+Node@{fcal\+::ast\+::\+Node}!unparse@{unparse}}
+\index{unparse@{unparse}!fcal\+::ast\+::\+Node@{fcal\+::ast\+::\+Node}}
+\subsubsection[{\texorpdfstring{unparse()=0}{unparse()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\+::string fcal\+::ast\+::\+Node\+::unparse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{classfcal_1_1ast_1_1Node_a81865f5a1df593708a39bf492952742a}{}\label{classfcal_1_1ast_1_1Node_a81865f5a1df593708a39bf492952742a}
+
+
+Implemented in \hyperlink{classfcal_1_1ast_1_1NotExpr_a46f164e673738d573c8616c70c26159f}{fcal\+::ast\+::\+Not\+Expr}, \hyperlink{classfcal_1_1ast_1_1IfExpr_a4092cf20150a2cde02364d4c7233e558}{fcal\+::ast\+::\+If\+Expr}, \hyperlink{classfcal_1_1ast_1_1LetExpr_a5277bbe3510e870f65dd9158592ef6da}{fcal\+::ast\+::\+Let\+Expr}, \hyperlink{classfcal_1_1ast_1_1ParenthesesExpr_aeeecf677f1f0e03771004cb611347732}{fcal\+::ast\+::\+Parentheses\+Expr}, \hyperlink{classfcal_1_1ast_1_1NestedOrFunctionCallExpr_aba7c47b3587c8d9e9c1d18e30f005c45}{fcal\+::ast\+::\+Nested\+Or\+Function\+Call\+Expr}, \hyperlink{classfcal_1_1ast_1_1MatrixREFExpr_a894e3996a1b1703dc767433df98b551f}{fcal\+::ast\+::\+Matrix\+R\+E\+F\+Expr}, \hyperlink{classfcal_1_1ast_1_1LogicalOrExpr_a0553c24537ac515e8f66ada8200a14c9}{fcal\+::ast\+::\+Logical\+Or\+Expr}, \hyperlink{classfcal_1_1ast_1_1LogicalAndExpr_ade9698171dd31ad7253f7e2a96a72a04}{fcal\+::ast\+::\+Logical\+And\+Expr}, \hyperlink{classfcal_1_1ast_1_1NotEqualsExpr_a6b00eebe998ad14fa56f52630f0d5bf9}{fcal\+::ast\+::\+Not\+Equals\+Expr}, \hyperlink{classfcal_1_1ast_1_1EqualsEqualsExpr_a48f3a989601a76e3de580be1d84c7eeb}{fcal\+::ast\+::\+Equals\+Equals\+Expr}, \hyperlink{classfcal_1_1ast_1_1LessEqualExpr_a78181c2bc69a185d97753d23c823b6a0}{fcal\+::ast\+::\+Less\+Equal\+Expr}, \hyperlink{classfcal_1_1ast_1_1LessExpr_af3a7eb1f384374183b28ca01224827e2}{fcal\+::ast\+::\+Less\+Expr}, \hyperlink{classfcal_1_1ast_1_1GreaterEqualExpr_a1ae9a0851f31b4740ffb8a35a9014478}{fcal\+::ast\+::\+Greater\+Equal\+Expr}, \hyperlink{classfcal_1_1ast_1_1GreaterExpr_ad5bd1acf689d89841845e14d63e42e16}{fcal\+::ast\+::\+Greater\+Expr}, \hyperlink{classfcal_1_1ast_1_1SubtractExpr_af9743e29d8e72ee1a33a55470cad923e}{fcal\+::ast\+::\+Subtract\+Expr}, \hyperlink{classfcal_1_1ast_1_1AddExpr_ab091a379ec85a4f0d3861f440d3fb54e}{fcal\+::ast\+::\+Add\+Expr}, \hyperlink{classfcal_1_1ast_1_1DivideExpr_aa9ffeb0bd5a526ca75deacc31882f833}{fcal\+::ast\+::\+Divide\+Expr}, \hyperlink{classfcal_1_1ast_1_1MultiplyExpr_a95d9a65fb0f15fea8d94156f64979ca3}{fcal\+::ast\+::\+Multiply\+Expr}, \hyperlink{classfcal_1_1ast_1_1BooleanConstExpr_a24fbd101f0aa59fc7379b2365f4f84be}{fcal\+::ast\+::\+Boolean\+Const\+Expr}, \hyperlink{classfcal_1_1ast_1_1StringConstExpr_a31ebd91190d48077a842cd711c5b0f26}{fcal\+::ast\+::\+String\+Const\+Expr}, \hyperlink{classfcal_1_1ast_1_1FloatConstExpr_ac43f676dc814852231c0ac263d1a2628}{fcal\+::ast\+::\+Float\+Const\+Expr}, \hyperlink{classfcal_1_1ast_1_1IntegerConstExpr_afccb833ff588cd49929358ab76cafdc4}{fcal\+::ast\+::\+Integer\+Const\+Expr}, \hyperlink{classfcal_1_1ast_1_1VarNameExpr_a07df9e3944650d2d2495d68af50dae0c}{fcal\+::ast\+::\+Var\+Name\+Expr}, \hyperlink{classfcal_1_1ast_1_1MatrixSingleExprDecl_a3c983adc4f904b051d6f908a9c6da76e}{fcal\+::ast\+::\+Matrix\+Single\+Expr\+Decl}, \hyperlink{classfcal_1_1ast_1_1MatrixMultiExprDecl_abb442f53c459332a7168f2153b3f11e9}{fcal\+::ast\+::\+Matrix\+Multi\+Expr\+Decl}, \hyperlink{classfcal_1_1ast_1_1BooleanDecl_a6f7b128adddaf89386c3b266f3fa0198}{fcal\+::ast\+::\+Boolean\+Decl}, \hyperlink{classfcal_1_1ast_1_1StringDecl_a51032ea2eab202f11fb1dc08bd718153}{fcal\+::ast\+::\+String\+Decl}, \hyperlink{classfcal_1_1ast_1_1FloatDecl_af2eeeb25426c98315fdb7926e16211a9}{fcal\+::ast\+::\+Float\+Decl}, \hyperlink{classfcal_1_1ast_1_1IntDecl_a70cae495e6036b864fb6750cb9acac19}{fcal\+::ast\+::\+Int\+Decl}, \hyperlink{classfcal_1_1ast_1_1SemiColonStmt_a8da5ab111a4506ada995205a64a260a4}{fcal\+::ast\+::\+Semi\+Colon\+Stmt}, \hyperlink{classfcal_1_1ast_1_1WhileStmt_af8c98bdb02459b303307a99573b57b07}{fcal\+::ast\+::\+While\+Stmt}, \hyperlink{classfcal_1_1ast_1_1RepeatStmt_a29fc58ac93a3b92cb2d5e83047f94fb6}{fcal\+::ast\+::\+Repeat\+Stmt}, \hyperlink{classfcal_1_1ast_1_1PrintStmt_afa695345289813cf9f8bb884560a4d5d}{fcal\+::ast\+::\+Print\+Stmt}, \hyperlink{classfcal_1_1ast_1_1MatrixAssignStmt_a09148bcbd78fcd071b92e5c79d4b0002}{fcal\+::ast\+::\+Matrix\+Assign\+Stmt}, \hyperlink{classfcal_1_1ast_1_1AssignStmt_ae58f8af8bc26ae0994d95ae266433ded}{fcal\+::ast\+::\+Assign\+Stmt}, \hyperlink{classfcal_1_1ast_1_1IfElseStmt_a58584903e7e9480773ca5be804342721}{fcal\+::ast\+::\+If\+Else\+Stmt}, \hyperlink{classfcal_1_1ast_1_1IfStmt_acf7d0fbe7a9ff597216a23992f603062}{fcal\+::ast\+::\+If\+Stmt}, \hyperlink{classfcal_1_1ast_1_1BracketsStmt_a1779d8a9115bd9ef4fb6835e45509573}{fcal\+::ast\+::\+Brackets\+Stmt}, \hyperlink{classfcal_1_1ast_1_1DeclStmt_a8c353eab134e5c531d4df740d48b6c06}{fcal\+::ast\+::\+Decl\+Stmt}, \hyperlink{classfcal_1_1ast_1_1SeqStmts_af4d437d57e334a6500ae7639d6eefbcc}{fcal\+::ast\+::\+Seq\+Stmts}, \hyperlink{classfcal_1_1ast_1_1EmptyStmts_abbccd9fb3e02082962774479fc47116d}{fcal\+::ast\+::\+Empty\+Stmts}, \hyperlink{classfcal_1_1ast_1_1Program_a74fbea2311a77a1e53104350d50705a6}{fcal\+::ast\+::\+Program}, \hyperlink{classfcal_1_1ast_1_1Expr_adba9309749d00e7c864456fbd505f252}{fcal\+::ast\+::\+Expr}, \hyperlink{classfcal_1_1ast_1_1Decl_a54761cf8b990cb2d478c606be6bc29c5}{fcal\+::ast\+::\+Decl}, \hyperlink{classfcal_1_1ast_1_1Stmt_a2ed8595941ddc947012bfeae54f4447d}{fcal\+::ast\+::\+Stmt}, and \hyperlink{classfcal_1_1ast_1_1Stmts_a1a01ed57e1a564a482ed11caf0e813df}{fcal\+::ast\+::\+Stmts}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{ast_8h}{ast.\+h}\end{DoxyCompactItemize}

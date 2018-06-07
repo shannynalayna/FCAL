@@ -1,0 +1,8 @@
+Group Woolly Mammoth
+Tristan Mansfield
+Shannyn Telander
+
+Tristan updated the scanner.cc and the scanner.h files to include the new Token types. Tristan altered the Makefile to accommodate the parser files introduced in this iteration. He also wrote the FCAL program from the example in the iteration 2 write up.
+
+Shannyn updated the scanner_tests.h and regex_tests.h to accommodated for the additional token types introduced in this iteration. Shannyn also assisted Tristan in looking over the mysample.dsl file to check the updated grammar.
+Shannyn also made sure that all code was Google style compliant and fixed any style issues within the src and header files.
